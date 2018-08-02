@@ -1,0 +1,480 @@
+html {
+    background: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+body { 
+    padding-top: 0px;
+     font-family: 'Oswald', sans-serif;
+}
+
+@media screen and (max-width: 640px) {
+    body { padding-top: 10px; }
+}
+
+#wrapper {
+    position: fixed;
+     padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 32px;
+    width: 100%;
+    overflow: auto;
+    align-content: center;
+    
+}
+
+.logo {
+   object-position: top, center;
+}
+
+   
+}
+
+.icons {
+   margin-right: 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding-right: 245px;
+    padding-bottom: 0px;
+    float: right;
+    margin: 0 2px;
+}
+
+
+
+.main_menu {
+    position: fixed;
+    z-index: 1000;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 32px;
+    width: 100%;
+    background-color: #0c4a8a;
+    overflow: hidden;
+    align-content: center;
+    border-bottom: 5px #000 solid;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    
+}
+
+ul.main_menu {
+    margin-top: 0;
+}
+
+.main_menu li {
+    display: inline;
+    padding: 0 10px; 0 10px;
+    font-size: 16px;
+    
+}
+
+.main_menu a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    font-variant: small-caps;
+    
+}
+
+
+
+.main_menu a:hover {
+    text-decoration: none;
+    color: gray;
+    }
+
+
+
+
+
+
+.content {
+padding: 16px; 
+padding-top: 87px;
+background-repeat: no-repeat;
+object-position: center;
+font-family: 'Oswald', sans-serif;
+
+
+}
+
+.banner {
+width: 100%;
+padding-top: 35px;
+}
+ 
+
+.service {
+width: 100%;
+padding-top: 35px;
+font-family: 'Oswald', sans-serif;
+}
+
+.contact {
+width: 100%;
+padding-top: 25px;
+font-family: 'Oswald', sans-serif;
+    
+}
+
+
+footer {
+    background-color: #0c4a8a;
+    max-width:100%;
+    image-orientation: center;
+    align-content: center;
+    text-align: center;
+    color: #ffffff;
+    line-height: 50px;
+    border-top: 3px #000 solid;
+    border-bottom: 3px #000 solid;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+address {
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+form {
+ width: 1000px;
+ margin: 10px auto;
+ padding: 10px 20px;
+ background: #D0D0D0;
+ border-radius: 8px;
+ font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+ margin: 0 0 30px 0;
+ text-align: center;
+font-family: 'Oswald', sans-serif;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+ background: rgba(255,255,255,0.1);
+ border: none;
+ font-size: 16px;
+ height: auto;
+ margin: 0;
+ outline: 0;
+ padding: 15px;
+ width: 100%;
+ background-color: #fff;
+ color: #D0D0D0;
+ box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+ margin-bottom: 30px;
+ font-family: 'Oswald', sans-serif;   
+}    
+
+input[type="radio"],
+input[type="checkbox"] {
+ margin: 0 4px 8px 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+select {
+ padding: 6px;
+ height: 32px;
+ border-radius: 2px;
+    font-family: 'Oswald', sans-serif;
+}
+
+button {
+ padding: 19px 39px 18px 39px;
+ color: #FFF;
+ background-color: #585858;
+ font-size: 18px;
+ text-align: center;
+ font-style: normal;
+ border-radius: 5px;
+ width: 100%;
+ border: 1px solid #000;
+ border-width: 1px 1px 3px;
+ box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+ margin-bottom: 10px;
+font-family: 'Oswald', sans-serif;
+}
+
+.button {
+ padding: 19px 39px 18px 39px;
+ color: #FFF;
+ background-color: #D0D0D0;
+ font-size: 18px;
+ text-align: center;
+ font-style: normal;
+ border-radius: 5px;
+ width: 100%;
+ border: 1px solid #000;
+ border-width: 1px 1px 3px;
+ box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+ margin-bottom: 10px;   
+ font-family: 'Oswald', sans-serif;
+}
+
+fieldset {
+ margin-bottom: 30px;
+ border: none;
+     font-family: 'Oswald', sans-serif;
+}
+
+legend {
+ font-size: 1.4em;
+ margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+label {
+ display: block;
+ margin-bottom: 8px;
+     font-family: 'Oswald', sans-serif;
+}
+
+label.light {
+ font-weight: 300;
+ display: inline;
+    font-family: 'Oswald', sans-serif;
+}
+
+.number {
+ background-color: #4d94ff;
+ color: #fff;
+ height: 30px;
+ width: 30px;
+ display: inline-block;
+ font-size: 0.8em;
+ margin-right: 4px;
+ line-height: 30px;
+ text-align: center;
+ text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+ border-radius: 100%;
+  font-family: 'Oswald', sans-serif;   
+}
+
+@media screen and (min-width: 480px) {
+
+ form {
+   max-width: 480px;
+      font-family: 'Oswald', sans-serif;
+ }
+
+}
+
+.row .col-sm-6.btn btn-primary {
+background-color: #afafa6;  
+font-family: 'Oswald', sans-serif;
+}
+
+
+.aboutus {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    font-size: 24px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+    text-align: left;
+}
+
+
+p {
+        font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.jumbotron jumbotron-fluid .container {
+        font-family: 'Oswald', sans-serif;
+    text-align: left;
+    font-size: 24x;
+
+}
+
+.jumbotron jumbotron-fluid .container .display-4 {
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    font-size: 40px;
+
+}
+
+.jumbotron jumbotron-fluid .container .lead {
+     font-family: 'Oswald', sans-serif;
+    text-align: left;
+    font-size: 40px;
+
+    
+}
+
+
+.container .lead {
+      font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+
+
+.display-4 {
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    font-size: 24px;
+
+}
+
+
+.card-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.card-body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+   
+}
+
+.blockquote-footer {
+    background-color: #fff;
+    border: none;
+}
+
+.lead {
+      font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.card-deck {
+       font-family: 'Oswald', sans-serif;
+}
+
+.btn btn-secondary {
+     font-family: 'Oswald', sans-serif;
+}
+
+
+
+.card .card-body .card-text {
+     font-family: 'Oswald', sans-serif;
+}
+
+.card-deck .card-body .card-text {
+     font-family: 'Oswald', sans-serif;
+}
+
+
+.card-deck .card .card-body {
+    align-content: center;
+}
+
+
+card-deck {
+    align-content: center;
+}
+
+
+.custom-align .card {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-align .card-content {
+  flex: 1;
+  max-height: 100%;
+  align-items: center;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 50px) {
+nav {
+   height: 200px;
+     position: absolute;
+    z-index: 1000;
+ 
+ }
+ .main_menu {
+   width: 100%;
+   display: inline-grid;
+   justify-content: center;
+   align-items: center;
+     position: absolute;
+     z-index: 1000;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 32px;
+    background-color: #0c4a8a;
+    overflow: hidden;
+    align-content: center;
+    border-bottom: 5px #000 solid;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+     padding-top: 200px;
+    
+ }
+ .logo {
+   margin-bottom: 10px;
+   border-bottom: 1px solid #e2e2e2;
+ }
+ .content {
+   padding-top: 220px;
+     z-index: 1000;
+   
+ }
+ .center-text {
+   width: 100%;
+   text-align: center;
+ }
+    
+    .banner {
+        padding-top: 87px;
+    }
+    .contact {
+        padding-top: 87px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
